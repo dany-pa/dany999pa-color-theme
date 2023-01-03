@@ -1,21 +1,26 @@
 {
-    "name": "dany999pa",
-    "displayName": "dany999pa",
-    "description": "",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.74.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "dany999pa",
-                "uiTheme": "vs",
-                "path": "./themes/dany999pa-color-theme.json"
-            }
-        ]
-    }
+  "name": "dany999pa-color-theme",
+  "displayName": "dany999pa color theme",
+  "description": "Color theme for my own",
+  "version": "0.0.1",
+  "publisher": "dany999pa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dany-pa/dany999pa-color-theme"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "dany999pa",
+        "uiTheme": "vs",
+        "path": "./themes/dany999pa-color-theme.json"
+      }
+    ]
+  }
 }
